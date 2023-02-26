@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
+    loader: "akamai",
+    path: "",
     minimumCacheTTL: 60 * 60 * 24,
     deviceSizes: [320, 640, 660, 768, 1024, 1600],
   },
